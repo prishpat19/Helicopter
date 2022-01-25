@@ -99,7 +99,7 @@ function keyPressed(){
   
   if (keyCode === DOWN_ARROW){
   
-	package.velocityX = -2;
+	Matter.Body.setStatic(packageBody,false);
  
   }
   
